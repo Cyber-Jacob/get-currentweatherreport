@@ -5,14 +5,18 @@ This powershell module is intended to use the Invoke-RestMethod command to strin
 ## Usage
 `Get-CurrentWeatherReport -OpenWeatherApiKey $apikey`
 is the base usage.
+
 As a Powershell user, the best use of this command is more akin to this:
 `$weatherreport = Get-CurrentWeatherReport -OpenWeatherApiKey $apikey`
 and from here we can do more powershell object oriented things like `$weatherreport.Weather_Summary` or `$weatherreport.FeelsLike_F`. 
+
 I won't oversell it; this is a fairly barebones module. 
 
 ## Authentication
 An OpenWeatherMap.org api key is required, so there is an authentication component. The free version grants access to:
+
 -3 hour forceast for 5 days API
 -Current weather report API
 -Air pollution API 
 -Geocoding API
+
