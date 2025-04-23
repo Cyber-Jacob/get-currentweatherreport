@@ -15,8 +15,8 @@ I won't oversell it; this is a fairly barebones module.
 ## Authentication
 An OpenWeatherMap.org api key is required, so there is an authentication component. The free version grants access to:
 
--3 hour forceast for 5 days API
--Current weather report API
--Air pollution API 
--Geocoding API
+- 3 hour forceast for 5 days API
+- Current weather report API
+- Air pollution API 
+- Geocoding API
 
